@@ -43,7 +43,7 @@ public class HxCPeripherals
         GameRegistry.registerBlock(smartLight, "smartLight");
     }
 
-    @EventHandler 
+    @EventHandler
     public void init(FMLInitializationEvent event)
     {
         GameRegistry.registerTileEntity(TileEntitySmartLight.class, "tileSmartLight");
