@@ -36,7 +36,7 @@ public class HxCPeripherals
     public static CommonProxy proxy;
 
     public static BlockSmartLight smartLight = new BlockSmartLight();
-
+ 
 
     @EventHandler
     public void preInit(FMLPreInitializationEvent event){
