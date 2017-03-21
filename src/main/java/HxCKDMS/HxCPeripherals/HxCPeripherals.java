@@ -36,14 +36,14 @@ public class HxCPeripherals
     public static CommonProxy proxy;
 
     public static BlockSmartLight smartLight = new BlockSmartLight();
- 
+
 
     @EventHandler
     public void preInit(FMLPreInitializationEvent event){
         GameRegistry.registerBlock(smartLight, "smartLight");
     }
 
-    @EventHandler
+    @EventHandler 
     public void init(FMLInitializationEvent event)
     {
         GameRegistry.registerTileEntity(TileEntitySmartLight.class, "tileSmartLight");
